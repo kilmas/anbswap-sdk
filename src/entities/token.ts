@@ -65,6 +65,6 @@ export const WETH = {
   [ChainId.HECOMAIN]: new Token(ChainId.HECOMAIN, '0x5545153ccfca01fbd7dd11c0b23ba694d9509a6f', 18, 'WHT', 'Wrapped HT'),
   [ChainId.HECOTEST]: new Token(ChainId.HECOTEST, '0x50b29a42c9e4d0f940292c386207f492458ee358', 18, 'WHT', 'Wrapped HT'),
   [ChainId.BIANMAIN]: new Token(ChainId.BIANMAIN, '0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c', 18, 'WBNB', 'Wrapped BNB'),
-  [ChainId.BIANTEST]: new Token(ChainId.BIANTEST, '0xae13d989dac2f0debff460ac112a837c89baa7cd', 18, 'WBNB', 'Wrapped BNB'),
+  [ChainId.BIANTEST]: new Token(ChainId.BIANTEST, '0x094616F0BdFB0b526bD735Bf66Eca0Ad254ca81F', 18, 'WBNB', 'Wrapped BNB'),
   [ChainId.OKTEST]: new Token(ChainId.OKTEST, '0xB13991B6253172118b962045906b27ce73C21ecD', 18, 'WOKT', 'Wrapped OKT')
 }
