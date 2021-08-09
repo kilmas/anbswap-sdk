@@ -42,6 +42,9 @@ export class Pair {
       }
     }
 
+    console.log('token0:',tokens[0].address);
+    console.log('token1:',tokens[1].address);
+    console.log('pair:',PAIR_ADDRESS_CACHE[tokens[0].address][tokens[1].address]);
     return PAIR_ADDRESS_CACHE[tokens[0].address][tokens[1].address]
   }
 
