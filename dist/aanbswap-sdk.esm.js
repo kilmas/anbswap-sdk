@@ -794,9 +794,6 @@ var Pair = /*#__PURE__*/function () {
       PAIR_ADDRESS_CACHE = _extends({}, PAIR_ADDRESS_CACHE, (_extends3 = {}, _extends3[tokens[0].address] = _extends({}, (_PAIR_ADDRESS_CACHE2 = PAIR_ADDRESS_CACHE) === null || _PAIR_ADDRESS_CACHE2 === void 0 ? void 0 : _PAIR_ADDRESS_CACHE2[tokens[0].address], (_extends2 = {}, _extends2[tokens[1].address] = getCreate2Address(FACTORY_ADDRESS[tokenA.chainId], keccak256(['bytes'], [pack(['address', 'address'], [tokens[0].address, tokens[1].address])]), INIT_CODE_HASHES[tokenA.chainId]), _extends2)), _extends3));
     }
 
-    console.log('token0:', tokens[0].address);
-    console.log('token1:', tokens[1].address);
-    console.log('pair:', PAIR_ADDRESS_CACHE[tokens[0].address][tokens[1].address]);
     return PAIR_ADDRESS_CACHE[tokens[0].address][tokens[1].address];
   }
   /**
