@@ -400,12 +400,13 @@ var _WETH;
 var Token = /*#__PURE__*/function (_Currency) {
   _inheritsLoose(Token, _Currency);
 
-  function Token(chainId, address, decimals, symbol, name) {
+  function Token(chainId, address, decimals, symbol, name, projectLink) {
     var _this;
 
     _this = _Currency.call(this, decimals, symbol, name) || this;
     _this.chainId = chainId;
     _this.address = validateAndParseAddress(address);
+    _this.projectLink = projectLink;
     return _this;
   }
   /**
