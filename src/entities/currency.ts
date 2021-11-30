@@ -45,7 +45,7 @@ export class Currency {
   }
   
   toDisplayableSymbol(chainId: ChainId) {
-    if (this !== ETHER) throw new Error('Not currency instance')
+    if (this !== ETHER) return this.symbol
     return CurrencyName[chainId]
   }
 }

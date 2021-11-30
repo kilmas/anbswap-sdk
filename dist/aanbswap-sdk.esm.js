@@ -379,7 +379,7 @@ var Currency = /*#__PURE__*/function () {
   var _proto = Currency.prototype;
 
   _proto.toDisplayableSymbol = function toDisplayableSymbol(chainId) {
-    if (this !== ETHER) throw new Error('Not currency instance');
+    if (this !== ETHER) return this.symbol;
     return CurrencyName[chainId];
   };
 
@@ -779,7 +779,7 @@ var Pair = /*#__PURE__*/function () {
   function Pair(tokenAmountA, tokenAmountB) {
     var tokenAmounts = tokenAmountA.token.sortsBefore(tokenAmountB.token) // does safety checks
     ? [tokenAmountA, tokenAmountB] : [tokenAmountB, tokenAmountA];
-    this.liquidityToken = new Token(tokenAmounts[0].token.chainId, Pair.getAddress(tokenAmounts[0].token, tokenAmounts[1].token), 18, 'GLP:' + tokenAmounts[0].token.symbol + '-' + tokenAmounts[1].token.symbol, 'GoSwap LP Token');
+    this.liquidityToken = new Token(tokenAmounts[0].token.chainId, Pair.getAddress(tokenAmounts[0].token, tokenAmounts[1].token), 18, 'OLP:' + tokenAmounts[0].token.symbol + '-' + tokenAmounts[1].token.symbol, 'OortSwap LP Token');
     this.tokenAmounts = tokenAmounts;
   }
 

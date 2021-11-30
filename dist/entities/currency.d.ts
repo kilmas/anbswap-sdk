@@ -19,7 +19,7 @@ export declare class Currency {
      * @param name of the currency
      */
     protected constructor(decimals: number, symbol?: string, name?: string);
-    toDisplayableSymbol(chainId: ChainId): string;
+    toDisplayableSymbol(chainId: ChainId): string | undefined;
 }
 declare const ETHER: Currency;
 export { ETHER };
