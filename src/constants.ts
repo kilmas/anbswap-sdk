@@ -30,7 +30,7 @@ export enum Rounding {
 export const INIT_CODE_HASHES = {
   [ChainId.MAINNET]: '0x1ae685a06ad758dcd2c4191b790c1c3283d1d56d917bc1bad7328c2a4f2ab5a0',
   [ChainId.ROPSTEN]: '0x1ae685a06ad758dcd2c4191b790c1c3283d1d56d917bc1bad7328c2a4f2ab5a0',
-  [ChainId.RINKEBY]: '0x1ae685a06ad758dcd2c4191b790c1c3283d1d56d917bc1bad7328c2a4f2ab5a0',
+  [ChainId.RINKEBY]: '0x31b8bb71e834f67949639b69cdd3f7a2cf2f6152b0145ab4845b49232ef6eedc',
   [ChainId.GÖRLI]: '0x1ae685a06ad758dcd2c4191b790c1c3283d1d56d917bc1bad7328c2a4f2ab5a0',
   [ChainId.KOVAN]: '0xe3a2d8b356e0265479117bb262881a7c7c690a1cf7392d0ab59e30d5134cbe06',
   [ChainId.HECOMAIN]: '0x1ae685a06ad758dcd2c4191b790c1c3283d1d56d917bc1bad7328c2a4f2ab5a0',
@@ -44,7 +44,7 @@ export const INIT_CODE_HASHES = {
 export const FACTORY_ADDRESS = {
   [ChainId.MAINNET]: '',
   [ChainId.ROPSTEN]: '',
-  [ChainId.RINKEBY]: '',
+  [ChainId.RINKEBY]: '0x78e5E1C986a20061dbb0485D10a5d1c1e472A744',
   [ChainId.GÖRLI]: '',
   [ChainId.KOVAN]: '0x54038C23b72b01eeDBaF4AE4C098D329FB2D32f1',
   [ChainId.HECOMAIN]: '0x76854443c1FC36Bbad8E9Ae361ED415dD673640f',
