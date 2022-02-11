@@ -10,7 +10,9 @@ export declare enum ChainId {
     HECOTEST = 256,
     BIANMAIN = 56,
     BIANTEST = 97,
-    OKTEST = 65
+    OKTEST = 65,
+    REITEST = 47805,
+    REIMAIN = 47805
 }
 export declare enum TradeType {
     EXACT_INPUT = 0,
@@ -32,6 +34,7 @@ export declare const INIT_CODE_HASHES: {
     56: string;
     97: string;
     65: string;
+    47805: string;
 };
 export declare const FACTORY_ADDRESS: {
     1: string;
@@ -44,6 +47,7 @@ export declare const FACTORY_ADDRESS: {
     56: string;
     97: string;
     65: string;
+    47805: string;
 };
 export declare const MINIMUM_LIQUIDITY: JSBI;
 export declare const ZERO: JSBI;
