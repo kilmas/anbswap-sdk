@@ -14,7 +14,7 @@ export enum ChainId {
   BIANMAIN = 56,
   BIANTEST = 97,
   OKTEST = 65,
-  REITEST = 47805,
+  REITEST = 12357,
   REIMAIN = 47805
 }
 

@@ -11,7 +11,7 @@ export declare enum ChainId {
     BIANMAIN = 56,
     BIANTEST = 97,
     OKTEST = 65,
-    REITEST = 47805,
+    REITEST = 12357,
     REIMAIN = 47805
 }
 export declare enum TradeType {
@@ -34,6 +34,7 @@ export declare const INIT_CODE_HASHES: {
     56: string;
     97: string;
     65: string;
+    12357: string;
     47805: string;
 };
 export declare const FACTORY_ADDRESS: {
@@ -47,6 +48,7 @@ export declare const FACTORY_ADDRESS: {
     56: string;
     97: string;
     65: string;
+    12357: string;
     47805: string;
 };
 export declare const MINIMUM_LIQUIDITY: JSBI;

@@ -30,7 +30,7 @@ var _INIT_CODE_HASHES, _FACTORY_ADDRESS, _SOLIDITY_TYPE_MAXIMA;
   ChainId[ChainId["BIANMAIN"] = 56] = "BIANMAIN";
   ChainId[ChainId["BIANTEST"] = 97] = "BIANTEST";
   ChainId[ChainId["OKTEST"] = 65] = "OKTEST";
-  ChainId[ChainId["REITEST"] = 47805] = "REITEST";
+  ChainId[ChainId["REITEST"] = 12357] = "REITEST";
   ChainId[ChainId["REIMAIN"] = 47805] = "REIMAIN";
 })(exports.ChainId || (exports.ChainId = {}));
 
