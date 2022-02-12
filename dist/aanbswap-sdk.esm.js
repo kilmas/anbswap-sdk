@@ -357,7 +357,7 @@ function sortedInsert(items, add, maxSize, comparator) {
 }
 
 var _CurrencyName;
-var CurrencyName = (_CurrencyName = {}, _CurrencyName[ChainId.MAINNET] = 'ETH', _CurrencyName[ChainId.ROPSTEN] = 'ETH', _CurrencyName[ChainId.RINKEBY] = 'ETH', _CurrencyName[ChainId.GÖRLI] = 'ETH', _CurrencyName[ChainId.KOVAN] = 'ETH', _CurrencyName[ChainId.BIANMAIN] = 'BNB', _CurrencyName[ChainId.BIANTEST] = 'BNB', _CurrencyName[ChainId.HECOMAIN] = 'HT', _CurrencyName[ChainId.HECOTEST] = 'HT', _CurrencyName[ChainId.OKTEST] = 'OKT', _CurrencyName);
+var CurrencyName = (_CurrencyName = {}, _CurrencyName[ChainId.MAINNET] = 'ETH', _CurrencyName[ChainId.ROPSTEN] = 'ETH', _CurrencyName[ChainId.RINKEBY] = 'ETH', _CurrencyName[ChainId.GÖRLI] = 'ETH', _CurrencyName[ChainId.KOVAN] = 'ETH', _CurrencyName[ChainId.BIANMAIN] = 'BNB', _CurrencyName[ChainId.BIANTEST] = 'BNB', _CurrencyName[ChainId.HECOMAIN] = 'HT', _CurrencyName[ChainId.HECOTEST] = 'HT', _CurrencyName[ChainId.OKTEST] = 'OKT', _CurrencyName[ChainId.REITEST] = 'REI', _CurrencyName[ChainId.REIMAIN] = 'REI', _CurrencyName);
 /**
  * A currency is any fungible financial instrument on Ethereum, including Ether and all ERC20 tokens.
  *
