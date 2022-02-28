@@ -70,5 +70,5 @@ export const WETH = {
   [ChainId.BIANTEST]: new Token(ChainId.BIANTEST, '0x094616F0BdFB0b526bD735Bf66Eca0Ad254ca81F', 18, 'WBNB', 'Wrapped BNB'),
   [ChainId.OKTEST]: new Token(ChainId.OKTEST, '0xB13991B6253172118b962045906b27ce73C21ecD', 18, 'WOKT', 'Wrapped OKT'),
   [ChainId.REITEST] : new Token(ChainId.REITEST, '0x4B75244212747c74db5fCf1670c504dE89A445A0', 18, 'WREI', 'Wrapped REI'),
-  [ChainId.REIMAIN] : new Token(ChainId.REIMAIN, '0x957c6E3e348fd07339487AEB66f4BA24f96e90F3', 18, 'WREI', 'Wrapped REI'),
+  [ChainId.REIMAIN] : new Token(ChainId.REIMAIN, '0x726A343864Ddf968631b8E034742D7a7A5053B76', 18, 'WREI', 'Wrapped REI'),
 }
